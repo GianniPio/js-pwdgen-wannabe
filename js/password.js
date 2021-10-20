@@ -7,7 +7,7 @@
 let userName;
 let userLastName;
 let color;
-let userPassword;
+const numberPass = 21;
 
 // Chiedere all'utente di inserire il suo nome
 userName = prompt("Inserisci il tuo nome");
@@ -19,14 +19,8 @@ userLastName = prompt("Inserisci il tuo cognome");
 color = prompt("Inserisci il tuo colore preferito");
 
 // unire tutte le variabili per formare la password
-userPassword = userName+ userLastName+ color+ 21;
+const userPassword = userName+ userLastName+ color+ numberPass;
 
 // stampa della password
 document.getElementById("users_password").innerHTML = userPassword;
 
-
-// controllo dati
-console.log(userName);
-console.log(userLastName);
-console.log(color);
-console.log(userPassword);
