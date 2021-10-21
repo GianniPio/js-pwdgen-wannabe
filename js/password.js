@@ -22,5 +22,5 @@ color = prompt("Inserisci il tuo colore preferito");
 const userPassword = userName+ userLastName+ color+ numberPass;
 
 // stampa della password
-document.getElementById("users_password").innerHTML = userPassword;
+document.getElementById("users_password").innerHTML = "La password assegnata è: " + userPassword;
 
